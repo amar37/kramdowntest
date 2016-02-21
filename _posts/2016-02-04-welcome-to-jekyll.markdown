@@ -47,6 +47,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 1. Do step 1.
 2. Now do this:
+    
     {% highlight ruby %}
     def print_hi(name)
       puts "Hi, #{name}"
@@ -54,6 +55,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
     print_hi('Tom')
     #=> prints 'Hi, Tom' to STDOUT.
     {% endhighlight %}
+    
 3. Now you can do this.
 
 
@@ -69,6 +71,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
     print_hi('Tom')
     #=> prints 'Hi, Tom' to STDOUT.
     ```
+        
 3. Now you can do this.
 
 
