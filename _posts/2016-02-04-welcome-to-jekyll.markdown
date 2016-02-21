@@ -10,6 +10,9 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+## Ruby syntax
+
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
@@ -18,6 +21,8 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+## Github fenced code blocks
+
 ```ruby
 def print_hi(name)
   puts "Hi, #{name}"
@@ -25,6 +30,8 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
+
+## Kramdown teles
 
 ~~~ruby
 def print_hi(name)
@@ -36,6 +43,54 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+## Ruby syntax
+
+1. Do step 1.
+2. Now do this:
+    {% highlight ruby %}
+    def print_hi(name)
+      puts "Hi, #{name}"
+    end
+    print_hi('Tom')
+    #=> prints 'Hi, Tom' to STDOUT.
+    {% endhighlight %}
+3. Now you can do this.
+
+
+## Github fenced code blocks
+
+1. Do step 1.
+2. Now do this:
+    
+    ```ruby
+    def print_hi(name)
+      puts "Hi, #{name}"
+    end
+    print_hi('Tom')
+    #=> prints 'Hi, Tom' to STDOUT.
+    ```
+3. Now you can do this.
+
+
+
+## Kramdown teles
+
+1. Do step 1.
+2. Now do this:
+    
+    ~~~ruby
+    def print_hi(name)
+      puts "Hi, #{name}"
+    end
+    print_hi('Tom')
+    #=> prints 'Hi, Tom' to STDOUT.
+    ~~~
+    
+3. Now you can do this.
+
+
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+
