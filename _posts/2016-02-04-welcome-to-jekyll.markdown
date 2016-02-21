@@ -33,7 +33,7 @@ print_hi('Tom')
 
 ## Kramdown teles
 
-~~~ruby
+~~~ ruby
 def print_hi(name)
   puts "Hi, #{name}"
 end
@@ -78,7 +78,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 1. Do step 1.
 2. Now do this:
     
-    ~~~ruby
+    ~~~ ruby
     def print_hi(name)
       puts "Hi, #{name}"
     end
