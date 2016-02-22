@@ -31,7 +31,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-## Kramdown teles
+## Kramdown tildes
 
 ~~~ ruby
 def print_hi(name)
@@ -66,7 +66,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
     
     ```ruby
     def print_hi(name)
-      puts "Hi, #{name}"
+    puts "Hi, #{name}"
     end
     print_hi('Tom')
     #=> prints 'Hi, Tom' to STDOUT.
@@ -76,7 +76,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 
-## Kramdown teles
+## Kramdown tildes
 
 1. Do step 1.
 2. Now do this:
@@ -91,6 +91,22 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
     
 3. Now you can do this.
 
+## HTML with Ruby syntax
+
+<ol>
+<li> Do step 1.</li>
+<li> Now do this:</li>
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+<li>Now you can do this.</li>
+</ol>
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
